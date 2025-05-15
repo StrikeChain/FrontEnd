@@ -41,8 +41,9 @@ npm install
 pnpm install
 ```
 3. **Start the local development server**
+```bash
 npm run dev
-
+```
 Once the server is running, open your browser and go to:
 
 👉 http://localhost:3000
