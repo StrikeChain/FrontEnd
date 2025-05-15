@@ -47,3 +47,8 @@ npm run dev
 Once the server is running, open your browser and go to:
 
 👉 http://localhost:3000
+
+If you encounter errors like `ERESOLVE unable to resolve dependency tree`, run:
+
+```bash
+npm install --legacy-peer-deps
