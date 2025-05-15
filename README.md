@@ -1,30 +1,48 @@
-# Strikechain
+# ⚡ StrikeChain Frontend
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Welcome to the official frontend repository of **StrikeChain** — a platform that enables the organization of sports competitions and automatic prize distribution using **USDC on the Base network**.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/manueljgs-projects/v0-strikechain)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/LytUq7Pv3nR)
+---
 
-## Overview
+## 🚀 Tech Stack
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- ⚛️ [Next.js](https://nextjs.org/)
+- 💅 [Tailwind CSS](https://tailwindcss.com/)
+- 🔐 [RainbowKit + wagmi](https://www.rainbowkit.com/) for Web3 wallet connection
+- 🌐 Network: [Base](https://base.org/)
+- 🪙 Stablecoin: USDC
 
-## Deployment
+---
 
-Your project is live at:
+## 📦 Requirements
 
-**[https://vercel.com/manueljgs-projects/v0-strikechain](https://vercel.com/manueljgs-projects/v0-strikechain)**
+Make sure you have the following installed:
 
-## Build your app
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [Git](https://git-scm.com/)
+- [PNPM](https://pnpm.io/) (optional but recommended)
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/LytUq7Pv3nR](https://v0.dev/chat/projects/LytUq7Pv3nR)**
+## 🛠 Local Setup
 
-## How It Works
+1. **Clone the repository:**
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```bash
+git clone https://github.com/StrikeChain/FrontEnd.git
+cd FrontEnd
+
+```
+ 2. **Install dependencies:**
+
+```bash
+
+npm install
+pnpm install
+```
+3. **Start the local development server**
+npm run dev
+
+Once the server is running, open your browser and go to:
+
+👉 http://localhost:3000
